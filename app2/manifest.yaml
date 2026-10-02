@@ -52,7 +52,7 @@ metadata:
 spec:
   ingressClassName: alb
   rules:
-  - host: ""
+  - host: "app2.spdevhops.online"
     http:
       paths:
       - pathType: Prefix
